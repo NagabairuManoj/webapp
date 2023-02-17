@@ -1,3 +1,5 @@
+import os
+os.system("python -m flask run")
 from flask import Flask
 
 app = Flask("test")
